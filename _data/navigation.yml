@@ -1,8 +1,6 @@
 # main links
 main:
-  - title: "Research"
-    url: /research/
-  - title: "Work"
-    url: /work/
+  - title: "Experience"
+    url: /experience/
   - title: "Projects"
     url: /projects/
