@@ -1,8 +1,8 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
   - title: "Research"
-    url: /year-archive/
+    url: /research/
+  - title: "Work"
+    url: /work/
   - title: "Projects"
-    url: /collection-archive/
+    url: /projects/
