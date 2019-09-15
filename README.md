@@ -1,1 +1,1 @@
-Dylan Sam | Math & CS| Brown University '21
+Dylan Sam | Math & CS | Brown University '21
