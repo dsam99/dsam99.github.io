@@ -14,21 +14,21 @@
 	padding-top:15px;
 }
 
-.brown {
-	margin: auto;
-	width: 50%;
-	padding: 10px;	
+.research-title {
+	padding-top: 10px;
 }
 
-.mit {
-	margin: auto;
+.research {
 	width: 50%;
+	margin: auto;
 	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
-.jpl{
-	margin: auto;
+.teaching {
 	width: 50%;
+	margin: auto;
 	padding: 10px;
 }
 
@@ -51,12 +51,20 @@
 	padding-bottom: -10px;
 }
 
+.brown {
+	padding-bottom: 20px;
+}
+
 .jpl-logo {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
 	height: 50%;
+}
+
+.jpl {
+	padding-bottom: 20px;
 }
 
 .mit-logo {
@@ -66,6 +74,10 @@
 	width: 30%;
 	height: 30%;
 	padding-bottom: 10px;
+}
+
+.mit {
+	padding-bottom: 20px;
 }
 
 ul {
