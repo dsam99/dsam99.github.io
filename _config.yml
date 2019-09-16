@@ -31,10 +31,11 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-relative-links
 
 relative_links:
   enabled:     true
-  collections: false
+  collections: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
