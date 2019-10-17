@@ -1,4 +1,4 @@
 ---
-layout: projects
+layout: research
 author_profile: false
 ---

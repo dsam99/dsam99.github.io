@@ -2,90 +2,20 @@
 layout: default
 author_profile: false
 ---
-<div class="research">
-
-<h1 class="research-title">Research</h1>
-
-<div class="brown">
-		<img class="brown-logo" src="{{ url }}/assets/img/brown.jpg" alt="Brown Logo">
-		<p class="title"> BATS Lab | Machine Learning Research Assistant <br>
-						  March 2019 - present </p>
-		<p>
-			I am a research assistant in Professor Bach's Lab. I am working on deriving new theoretical
-			bounds for the K-nearest neighbors machine learning algorithm under various semi-supervised learning conditions. I am also
-			working on collecting empirical results to match the bounds I have found so far. 
-		</p>
-
-		<hr>
-
-		<p class="title"> Rubenstein Lab | Computational Chemistry Research Assistant <br>
-						  November 2017 - present </p>
-		<p>
-			I work on the theory team for the DARPA Molecular Informatics Project in Professor Rubenstein's Lab. My project looks
-			to better understand the information capacity and distances between molecules of chemical space. <br>
-
-			I data mined and web scraped mass spectroscopy data from chemical databases and visualized the characteristics of the 
-			mass space of the GDB13 dataset. I presented these results Brown Chemistry Department Undergraduate Research Fair on April 3, 
-			2018. <br>
-
-			I am currently working on understanding NMR spectroscopy space; I have implemented a pipeline to use the SPINUS prediction
-			algorithm to generate NMR vectors. Our lab is collaborating with the Fourches' Lab to cluster these molecules and measure similarity. We 
-			are currently working towards a journal submission.
-		</p>
-
-		<hr>
-</div>
-
-<div class="jpl">
-		<img class="jpl-logo" src="{{ url }}/assets/img/nasa_jpl.jpg" alt="JPL Logo">  	
-		<p class="title"> Nasa Jet Propulsion Laboratory | Deep Learning Research Intern  <br> 
-						  June 2019 - August 2019 </p>
-		<p>
-			I was a deep learning research intern for the Mission Control Systems Deep Learning Group (393K). My project aimed to better understand
-			and automate Mars Rover Data transmission. <br>
-
-			I queried 3 APIs from the data transmission pipeline to the Ground Data System on Earth to construct a dataset of 
-			historical data transmission. I implemented signal processing to compute relevant features and computed feature extraction to 
-			evaluate the importance of these features. The data collection software that I engineered is currently in use by GDSA team 
-			for data visualization tools. <br>
-
-			I implemented a deep neural network to identify anomalous data transmission with 95% accuracy, which is a 4% increase from the 
-			existing GDS software. I implemented an Adversarial Autoencoder and a One-Class SVM for anomaly detection in data transmission. 
-			My trained models will be deployed in new GDS software and possibly the Mars 2020 mission. <br>
-
-			Our abstract was accepted into the SciTech 2020 Conference, and our paper will published in January 2020.
-		</p>
-		<hr>
-</div>
-
-
-<div class="mit">
-		<img class="mit-logo" src="{{ url }}/assets/img/mit.png" alt="MIT Logo">		
-		<p class="title"> MIT Program for Information Science | Data Science Research Intern <br> 
-						  May 2018 - March 2019 </p>
-
-		<p>
-			I was a data science research intern for the MIT Program of Information Science under Dr. Micah Altman. 
-			I worked on the CensusUsage project, which looked to categorize different use cases of the American Community Survey (ACS) data. <br>
-
-			I created the data pipeline to mine from multiple different sources: web news articles, Twitter API, and the JSTOR database. 
-			I analyzed these datsets by using unsupervised topic models (LDA, NMF) to see if there was any relation between topics and 
-			use cases. I visualized different probability metrics and statistics about the dataset. The open data source is located 
-			<a href="https://github.com/MIT-Informatics/CensusUsage">here</a>.
-			<br>
-			The project was presented at the Simmons Institue Workshop "Data Privacy: From Foundations to Applications". You can find the linked abstract <a href=https://simons.berkeley.edu/talks/tba-55>here</a>.
-			<br>
-		</p>
-		<hr>
-</div>
-
-</div>
 
 <div class="teaching">
 
 <h1 class="teaching-title">Teaching</h1>
 
-		<p class="title"> CSCI 1470/2470 (Fall 2019) | Undergraduate TA </p>
+		<p class="title"> Machine Learning (Spring 2019) | Head TA </p>
+		<p>
+			I am currently a Head TA for CSCI 1420: Machine Learning (~ projected 200 students). My class is an 
+			upper level class that machine learning, learning theory, and various different algorithms.  
+		</p>
+
+		<hr>
+
+		<p class="title"> Deep Learning (Fall 2019) | Undergraduate TA </p>
 		<p>
 			I am currently an undergraduate teaching assistant for CSCI 1470/2470: Deep Learning (350 students). My class is an 
 			undergraduate and graduate class that introduces deep learning, different models, and theory. I developed the 
@@ -94,7 +24,7 @@ author_profile: false
 
 		<hr>
 
-		<p class="title"> CSCI 0180 (Spring 2019) | Head TA </p>
+		<p class="title"> Data Structures and Algorithms (Spring 2019) | Head TA </p>
 		<p>
 			I was a head teaching assistant for CSCI 0180: An Integrated Introduction to Computer Science (180 students). My class 
 			focused on introducing Object-Oriented programming and teaching data structures and algorithms in both Java and
@@ -104,12 +34,62 @@ author_profile: false
 
 		<hr>
 
-		<p class="title"> CSCI 0030 (Fall 2018) | Head TA </p>
+		<p class="title"> CS for Humanities and Social Sciences (Fall 2018) | Head TA </p>
 		<p>
 			I was a head teaching assistant for CSCI 0030: Introduction to Computation for the Humanities and Social Sciences (26 students), 
 			which taught data analysis and language modeling to humanities and social science students. I managed 4 undergraduate TAs and 
 			developed a significant portion of the course. Since the course was new, I designed roughly half of the homework assignments
 			and projects. I held TA hours, organized staff meetings, and graded assignments.
+		</p>
+		<hr>
+</div>
+
+<div class="projects">
+
+<h1 class="projects-title">Projects</h1>
+
+		<p class="title"> CensusUsage | MIT Program of Information Science </p>
+		<p>
+			CensusUsage is an open-source research project that I worked on under the supervision of Micah Altman,
+			at the MIT Program of Information Science. The project incorporates three different sources of 
+			data regarding the ACS survey: online news articles, tweets through the Twitter API, and articles from
+			the JSTOR academic journal database. <br>
+
+			After cleaning and processing the corpuses, the project applies NPL techniques to better understand
+			the different use cases of the ACS data. Topic modelling is performed on the different corpuses using
+			both the NMF and LDA algorithms. Probability distributions are calculated for bigrams and trigrams. Finally
+			there are various visualizations to show the different topics and word frequencies of the corpus.
+
+			You can find the github repository <a href="https://github.com/MIT-Informatics/CensusUsage">here</a>.
+		</p>
+
+		<hr>
+
+		<p class="title"> GeoCash | HackMIT 2018 : Plaid API 1st Place Winner </p>
+		<p>
+			Our project GeoCash won first place at HackMIT 2018 for the best usage of Plaid's API.
+			GeoCash is a Meteor.js based webapp to help people to easily view where they are spending their money, through a
+			location-based visualization. We were inspired by Plaid's challenge at HackMIT to "help people
+			make more sense of their financial lives." <br>
+
+			We integrated Plaid's API to access users' financial transactions, and Google Maps API as a medium to display a
+			users flow of money. I worked on the backend of the webapp. I programmed in Node.js, using the Express framework. 
+			I also worked on integrating the Plaid API to access the transactions information and sending the results to
+			the frontend.
+
+			The project is located <a href="https://github.com/shawnaness/geocash">here</a>.
+		</p>
+		<hr>
+
+		<p class="title"> Timewalk | HackHarvard 2019 </p>
+		<p>
+			TimeWalk is a mobile app that utilizes the HERE API to help keep track of where a user has traveled during a day. 
+			The mobile app creates a history of locations that the user has visited, including pictures, times, and place names. 
+
+			TimeWalk was created fully in Javascript. I worked in Node.js to create the backend for our app, which integrated
+			HERE API. I made requests to the API and passed the information to the front-end.
+			
+			The project is located <a href="https://github.com/dsam99/timewalk">here</a>.
 		</p>
 
 </div>
