@@ -2,5 +2,5 @@
 main:
   - title: "Research"
     url: /research
-  - title: "Experience"
-    url: /experience
+  # - title: "Experience"
+  #   url: /experience
