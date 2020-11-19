@@ -2,5 +2,7 @@
 main:
   - title: "Research"
     url: /research
+  - title: "Publications"
+    url: /pubs
   # - title: "Experience"
   #   url: /experience
