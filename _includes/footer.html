@@ -1,5 +1,5 @@
-<div class="page__footer-follow">
-  <ul class="social-icons">
+{% comment %} <div class="page__footer-follow"> {% endcomment %}
+  {% comment %} <ul class="social-icons">
     {% if site.data.ui-text[site.locale].follow_label %}
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
     {% endif %}
@@ -10,9 +10,9 @@
           <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
         {% endif %}
       {% endfor %}
-    {% endif %}
+    {% endif %} {% endcomment %}
 
-    <li>
+    {% comment %} <li> {% endcomment %}
     <!-- LinkedIn -->
     {% comment %} <p><a href="https://www.linkedin.com/in/dylan-sam/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a> LinkedIn </p> 
     <!-- Github -->
@@ -21,11 +21,11 @@
     <p><i class="fa fa-envelope" aria-hidden="true"></i>  (firstname)_(lastname)(at)brown.edu</p>  {% endcomment %}
     <!-- Phone -->  
     {% comment %} <p><i class="fa fa-phone" aria-hidden="true"></i>  253-509-2684</p> {% endcomment %}
-    </li>
+    {% comment %} </li> {% endcomment %}
     <!-- <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li> -->
-  </ul>
-</div>
+  {% comment %} </ul> {% endcomment %}
+{% comment %} </div> {% endcomment %}
 
-<hr>
+{% comment %} <hr> {% endcomment %}
 
 <div class="page__footer-copyright"> &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }} </div>
