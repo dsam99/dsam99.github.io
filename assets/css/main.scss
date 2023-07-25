@@ -14,7 +14,7 @@ head {
 
 .about {
 	margin: auto;
-	width: 45%;
+	width: 60%;
 	padding: 10px;
 	padding-top:50px;
 	font-size: 16px;
@@ -85,6 +85,17 @@ head {
 	height: 50%;
 	border-radius: 50%;
 	padding-bottom: 20px;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+	.headshot {
+	  width: 100%; /* Adjust this for mobile */
+	  max-width: 300px; /* Set a maximum width if necessary */
+	  height: auto;
+	  border-radius: 50%;
+	  padding-bottom: 30px; /* Adjust this for mobile padding */
+	}
 }
 
 .brown-logo {
